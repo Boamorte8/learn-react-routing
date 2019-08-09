@@ -5,8 +5,9 @@ import Blog from './containers/Blog/Blog';
 
 class App extends Component {
   render() {
+    // <BrowserRouter basename="/my-app">
     return (
-      <BrowserRouter>
+      <BrowserRouter >
         <div className="App">
           <Blog />
         </div>
